@@ -9,6 +9,6 @@ BlockNews is a blockchain news platform where you can find anything related to b
 * Blockchain application scenarios
 * More...
 
-## [BlockNews Docs](https://blocknews.github.io/blocknews/)
+## [BlockNews Docs](https://github.com/BlockNews/blocknews/tree/master/docs)
 
 ## [BlockNews Wiki](https://wiki.onap.org/display/BlockNews/BlockNews)
