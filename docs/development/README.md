@@ -55,7 +55,7 @@ mpvue是一款美团推出的使用Vue.js开发小程序的前端框架。
 $ sudo vue init mpvue/mpvue-quickstart blocknews
 ```
 
-![init_blocknews](https://github.com/BlockNews/blocknews/raw/master/docs/snapshots/Greenshot%20s2018-06-14%2016.20.52.png)
+![init_blocknews](https://github.com/BlockNews/blocknews/raw/master/docs/snapshots/Greenshot%202018-06-14%2016.20.52.png)
 
 
 ## 安装依赖库,编译生成小程序代码
