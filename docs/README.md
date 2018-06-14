@@ -2,11 +2,11 @@
 
 ## 块闻文档列表
 
-* [块闻引导](https://github.com/BlockNews/blocknews-docs/blob/master/docs/guides)
-* [块闻wiki](https://github.com/BlockNews/blocknews-docs/blob/master/docs/wiki)
-* [块闻github](https://github.com/BlockNews/blocknews-docs/blob/master/docs/github)
-* [块闻小程序设计](https://github.com/BlockNews/blocknews-docs/blob/master/docs/design)
-* [块闻开发](https://github.com/BlockNews/blocknews-docs/blob/master/docs/development)
+* [块闻引导](https://github.com/BlockNews/blocknews/tree/master/docs/guides)
+* [块闻wiki](https://github.com/BlockNews/blocknews/tree/master/docs/wiki)
+* [块闻github](https://github.com/BlockNews/blocknews/tree/master/docs/github)
+* [块闻小程序设计](https://github.com/BlockNews/blocknews/tree/master/docs/design)
+* [块闻开发](https://github.com/BlockNews/blocknews/tree/master/docs/development)
 
 ## 介绍
 

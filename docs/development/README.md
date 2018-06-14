@@ -36,7 +36,7 @@ $ n stable
 
 vue.js是一个基于Node.js技术的用于构建交互式的Web界面的框架，推荐[Vue.js教程](http://www.runoob.com/vue2/vue-tutorial.html)
 
-* 安装Vue.js，
+* 安装Vue.js
 
 `
 $ npm install --global vue-cli
@@ -50,4 +50,37 @@ mpvue是一款美团推出的使用Vue.js开发小程序的前端框架。
 # 开发步骤
 
 ## 初始化项目blocknews
+
+`
+$ sudo vue init mpvue/mpvue-quickstart blocknews
+`
+
+![init_blocknews](https://raw.githubusercontent.com/BlockNews/blocknews/master/docs/snapshots/Greenshot 2018-06-14 16.20.52.png)
+
+
+## 安装依赖库,编译生成小程序代码
+
+`
+$ cd blocknews
+$ sudo npm install
+$ sudo npm run dev
+`
+
+![install_dependencies](https://raw.githubusercontent.com/BlockNews/blocknews/master/docs/snapshots/Greenshot 2018-06-14 16.36.51.png)
+
+这时候你会发现，在根目录下多了一个文件夹dist，里面就是我们的小程序代码了。
+
+## 调试小程序
+
+生成小程序代码后，接下来我们需要调试功能。
+
+* 打开已安装的微信开发者工具，微信扫二维码登录后，选择项目路径，设置项目名称
+
+![install_dependencies](https://raw.githubusercontent.com/BlockNews/blocknews/master/docs/snapshots/Greenshot 2018-06-14 16.45.51.png)
+
+* 在微信开发者工具里，我们可以看到一个模拟器，我们可以通过模拟器来调试我们的小程序。如果你想在自己手机上的微信调试小程序也是可以的，只需要点击右上角的"预览"，即可用微信扫码查看。
+
+![install_dependencies](https://raw.githubusercontent.com/BlockNews/blocknews/master/docs/snapshots/Greenshot 2018-06-14 16.49.19.png)
+
+* 如果src下面的代码发生变化，新增的页面需要 `sudo npm run dev` 重新编译。
 

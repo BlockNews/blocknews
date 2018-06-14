@@ -1,14 +1,21 @@
-# BlockNews
+# blocknews
 
-BlockNews is a blockchain news platform where you can find anything related to blockchain. We provides below services:
+> BlockNews is a blockchain news platform where you can find anything related to blockchain.
 
-* Latest blockchain news
-* Latest blockchain technologies
-* Blockchain tutorials
-* Blockchain courses
-* Blockchain application scenarios
-* More...
+## Build Setup
 
-## [BlockNews Docs](https://github.com/BlockNews/blocknews/tree/master/docs)
+``` bash
+# install dependencies
+npm install
 
-## [BlockNews Wiki](https://wiki.onap.org/display/BlockNews/BlockNews)
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
