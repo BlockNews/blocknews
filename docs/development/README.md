@@ -20,6 +20,7 @@
 
 `
 $ npm set registry https://registry.npm.taobao.org/
+
 $ npm get registry
 `
 
@@ -27,8 +28,11 @@ $ npm get registry
 
 `
 $ node -v
+
 $ npm cache clean -f
+
 $ npm install n -g
+
 $ n stable
 `
 
@@ -62,7 +66,9 @@ $ sudo vue init mpvue/mpvue-quickstart blocknews
 
 `
 $ cd blocknews
+
 $ sudo npm install
+
 $ sudo npm run dev
 `
 
