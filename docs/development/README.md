@@ -18,14 +18,14 @@
 * Node.js是一个基于Chrome Javascript运行时建立的平台，是当前最流行的前端web开发技术。如果你想学习Node.js，推荐一个[Node.js教程](https://www.runoob.com/nodejs/nodejs-tutorial.html)。
 * 更换npm源，我们可以通过npm下载安装和使用很多个人和公司共享发布的优秀的模块。由于默认的源比较慢，我们可以换成国内的源
 
-```
+``` bash
 $ npm set registry https://registry.npm.taobao.org/
 $ npm get registry
 ```
 
 * 如果你已经安装了node.js，想升级到最新稳定版本，运行命令
 
-```
+``` bash
 $ node -v
 $ npm cache clean -f
 $ npm install n -g
@@ -38,7 +38,7 @@ vue.js是一个基于Node.js技术的用于构建交互式的Web界面的框架�
 
 * 安装Vue.js
 
-```
+``` bash
 $ npm install --global vue-cli
 ```
 
@@ -51,7 +51,7 @@ mpvue是一款美团推出的使用Vue.js开发小程序的前端框架。
 
 ## 初始化项目blocknews
 
-```
+``` bash
 $ sudo vue init mpvue/mpvue-quickstart blocknews
 ```
 
@@ -60,7 +60,7 @@ $ sudo vue init mpvue/mpvue-quickstart blocknews
 
 ## 安装依赖库,编译生成小程序代码
 
-```
+``` bash
 $ cd blocknews
 $ sudo npm install
 $ sudo npm run dev
