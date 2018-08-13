@@ -1,0 +1,7 @@
+<view class="weui-footer">
+    <view class="weui-footer__links">
+        <navigator url="https://github.com/BlockNews" class="weui-footer__link">块闻</navigator>
+        <navigator url="" class="weui-footer__link">数据来源微信文章</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright © 2017-2018 </view>
+</view>
